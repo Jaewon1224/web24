@@ -1,43 +1,43 @@
 form{
-    width: 100%;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    width: 100%; /* 폼의 너비를 100%로 설정 */
+    padding: 20px; /* 폼의 패딩을 20px로 설정 */
+    display: flex; /* flexbox 레이아웃 사용 */
+    justify-content: center; /* 중앙 정렬 */
+    align-items: center; /* 수직 중앙 정렬 */
+    flex-direction: column; /* 열 방향으로 정렬 */
 }
 
 .d1 {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    width: 90%;
+    display: flex; /* flexbox 레이아웃 사용 */
+    justify-content: start; /* 시작 부분 정렬 */
+    align-items: center; /* 수직 중앙 정렬 */
+    width: 90%; /* 너비를 90%로 설정 */
 
-    margin-bottom: 10px;
+    margin-bottom: 10px; /* 아래쪽 여백 10px */
 }
 
 .d2 {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    width: 50%;
+    display: flex; /* flexbox 레이아웃 사용 */
+    justify-content: start; /* 시작 부분 정렬 */
+    align-items: center; /* 수직 중앙 정렬 */
+    width: 50%; /* 너비를 50%로 설정 */
 }
 
 select {
-    width: 90%;
-    height: 30px;
+    width: 90%; /* 선택 상자의 너비를 90%로 설정 */
+    height: 30px; /* 선택 상자의 높이를 30px로 설정 */
 }
 
 input {
-    width: 70%;
-    height: 30px;
+    width: 70%; /* 입력 상자의 너비를 70%로 설정 */
+    height: 30px; /* 입력 상자의 높이를 30px로 설정 */
 }
 
 #txt2 {
-    background-color:beige;
+    background-color:beige; /* txt2의 배경색을 베이지로 설정 */
 }
 
 label {
-    font-size: x-large;
-    font-weight: bold;
+    font-size: x-large; /* 라벨의 폰트 크기를 크게 설정 */
+    font-weight: bold; /* 라벨의 폰트 굵기를 굵게 설정 */
 }

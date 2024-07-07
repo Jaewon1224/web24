@@ -1,5 +1,5 @@
 input[type=number] {
-    height: 30px;
-    padding: 5px;
-    margin-right: 10px;
+    height: 30px; /* 입력 상자의 높이를 30px로 설정 */
+    padding: 5px; /* 입력 상자의 패딩을 5px로 설정 */
+    margin-right: 10px; /* 입력 상자의 오른쪽 여백을 10px로 설정 */
 }

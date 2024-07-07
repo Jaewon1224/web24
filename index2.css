@@ -1,0 +1,44 @@
+/* 전체 요소 모두 선택 */
+* {
+    margin: 0px;
+    padding: 0px; 
+  }
+
+body {
+    width: 100%;
+    line-height: 1.6;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: black;
+    background-color: rgb(255, 216, 223);
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}

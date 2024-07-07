@@ -16,24 +16,24 @@ const convert = (sel1, sel2, lb1, lb2, txt1, txt2) => {
 
 document.addEventListener('DOMContentLoaded', ()=>{
     //select box
-    const sel1 = document.querySelector('#sel1');
-    const sel2 = document.querySelector('#sel2');
+    const sel1 = document.querySelector('#sel1'); // 첫 번째 선택 상자
+    const sel2 = document.querySelector('#sel2'); // 두 번째 선택 상자
 
     //input
-    const txt1 = document.querySelector('#txt1');
-    const txt2 = document.querySelector('#txt2');
+    const txt1 = document.querySelector('#txt1'); // 첫 번째 입력 상자
+    const txt2 = document.querySelector('#txt2'); // 두 번째 입력 상자
 
     //label
-    const lb1 = document.querySelector('#lb1');
-    const lb2 = document.querySelector('#lb2');
+    const lb1 = document.querySelector('#lb1'); // 첫 번째 라벨
+    const lb2 = document.querySelector('#lb2'); // 두 번째 라벨
 
     sel1.addEventListener('change', ()=>{
         convert(sel1, sel2, lb1, lb2, txt1, txt2) ;
         if(txt1.value != '' && lb1.textContent == '℃') {
-            txt2.value = (9/5) * txt1.value + 32 ;
+            txt2.value = (9/5) * txt1.value + 32 ; // 섭씨 -> 화씨
         }
         else if (txt1.value != '' && lb1.textContent == '℉'){
-            txt2.value = (txt1.value - 32) * (5/9) ;
+            txt2.value = (txt1.value - 32) * (5/9) ; // 화씨 -> 섭씨
         }
     })
 
